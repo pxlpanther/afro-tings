@@ -107,7 +107,9 @@ a {
 /*
   Teasers
 */
-
+.teasers section {
+  margin-bottom: 2rem;
+}
 .img-container {
   display: flex;
   flex-wrap:wrap;
