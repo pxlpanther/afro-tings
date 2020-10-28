@@ -110,6 +110,7 @@ a {
 .teasers section {
   margin-bottom: 2rem;
 }
+
 .img-container {
   display: flex;
   flex-wrap:wrap;
@@ -118,8 +119,12 @@ a {
 .img-container img {
   width: 50%;
   height: 25%;
+  transition: transform 0.8s;
 }
 
+.img-container img:hover {
+  transform: scale(1.1);
+}
 @media screen and (min-width: 700px) {
   /*
     Teasers
